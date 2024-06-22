@@ -3,18 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply my-10 bg-purple-50;
-}
-
-@layer components {
-  .btn-primary {
-    @apply border-2 py-1 rounded-md px-2 outline-none placeholder-purple-300;
-  }
-
-  .btn-disable {
-    @apply btn-primary disabled:border-purple-300  bg-purple-50;
-  }
-  .focus-settings {
-    @apply ring-4 ring-purple-300 border-purple-700;
-  }
+  @apply m-8 bg-slate-950;
 }
