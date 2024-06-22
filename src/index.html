@@ -19,7 +19,7 @@
           id="required"
           placeholder="Required Field"
           required
-          class="btn-primary border-purple-600 w-full"
+          class="btn-primary border-purple-300 w-full focus:focus-settings"
         />
       </div>
 
@@ -36,18 +36,16 @@
       </div>
 
       <div class="space-y-1">
-        <label for="input" class="block text-sm font-semibold">
-          Input Field
-        </label>
+        <label for="input" class="block text-sm font-semibold"> Email </label>
         <input
           id="input"
-          placeholder="Input Field"
-          class="btn-primary border-purple-600 w-full rounded-md"
+          placeholder="Email"
+          class="btn-primary border-purple-600 w-full rounded-md focus:focus-settings invalid:border-red-600"
         />
       </div>
 
       <div class="space-x-1">
-        <input id="terms" type="checkbox" />
+        <input id="terms" type="checkbox" class="accent-purple-600" />
         <label for="terms">I accept the terms and conditions.</label>
       </div>
 
